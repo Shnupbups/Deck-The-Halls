@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=east": { "model": "deckthehalls:block/garland_with_lights_and_mistletoe_3", "y": 90 },
+		"facing=west": { "model": "deckthehalls:block/garland_with_lights_and_mistletoe_3", "y": 270 },
+		"facing=north": { "model": "deckthehalls:block/garland_with_lights_and_mistletoe_3" },
+		"facing=south": { "model": "deckthehalls:block/garland_with_lights_and_mistletoe_3", "y": 180 }
+	}
+}
