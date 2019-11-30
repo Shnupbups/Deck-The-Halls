@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "RNR"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:leaves"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "deckthehalls:garland"
+  }
+}

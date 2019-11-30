@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=east": { "model": "deckthehalls:block/garland", "y": 90 },
+		"facing=west": { "model": "deckthehalls:block/garland", "y": 270 },
+		"facing=north": { "model": "deckthehalls:block/garland" },
+		"facing=south": { "model": "deckthehalls:block/garland", "y": 180 }
+	}
+}

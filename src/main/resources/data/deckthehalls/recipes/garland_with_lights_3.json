@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "WDW"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:leaves"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    },
+    "D": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "deckthehalls:garland_with_lights_3"
+  }
+}

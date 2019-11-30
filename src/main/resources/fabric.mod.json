@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "deckthehalls",
+  "version": "1.0.1",
+
+  "name": "Deck The Halls",
+  "description": "Adds some festive blocks for the holiday season!",
+  "authors": [
+    "Shnupbups"
+  ],
+  "contributors": [
+    "Yoghurt4C"
+  ],
+
+  "license": "LGPLv3",
+  "icon": "assets/deckthehalls/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.shnupbups.deckthehalls.DeckTheHalls"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.6.1",
+    "fabric": "*"
+  }
+}

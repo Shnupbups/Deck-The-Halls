@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "RDB"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:leaves"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "D": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    }
+  },
+  "result": {
+    "item": "deckthehalls:garland_with_lights_2"
+  }
+}
