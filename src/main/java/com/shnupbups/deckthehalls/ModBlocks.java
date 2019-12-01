@@ -26,7 +26,7 @@ public class ModBlocks {
 	public static final Block GARLAND_WITH_LIGHTS_AND_MISTLETOE_3 = register("garland_with_lights_and_mistletoe_3", new GarlandBlock(FabricBlockSettings.copy(GARLAND_WITH_LIGHTS_1).build()));
 	
 	public static void init() {
-		BlockRenderLayerMapImpl.INSTANCE.putBlocks(RenderLayer.getCutout(), GARLAND_WITH_LIGHTS_1, GARLAND_WITH_LIGHTS_2, GARLAND_WITH_LIGHTS_3, GARLAND_WITH_LIGHTS_AND_BELLS_1, GARLAND_WITH_LIGHTS_AND_BELLS_2, GARLAND_WITH_LIGHTS_AND_BELLS_3,GARLAND_WITH_LIGHTS_AND_MISTLETOE_1,GARLAND_WITH_LIGHTS_AND_MISTLETOE_2,GARLAND_WITH_LIGHTS_AND_MISTLETOE_3);
+	
 	}
 	
 	static <T extends Block> T register(String name, T block, Item.Settings settings) {

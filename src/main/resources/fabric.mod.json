@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "deckthehalls",
-  "version": "1.0.1",
+  "version": "1.0.3",
 
   "name": "Deck The Halls",
   "description": "Adds some festive blocks for the holiday season!",
@@ -19,6 +19,9 @@
   "entrypoints": {
     "main": [
       "com.shnupbups.deckthehalls.DeckTheHalls"
+    ],
+    "client": [
+      "com.shnupbups.deckthehalls.DeckTheHallsClient"
     ]
   },
 
