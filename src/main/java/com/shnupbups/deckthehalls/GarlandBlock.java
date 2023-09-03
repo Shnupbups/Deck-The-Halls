@@ -3,7 +3,7 @@ package com.shnupbups.deckthehalls;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalFacingBlock;
-import net.minecraft.entity.EntityContext;
+import net.minecraft.block.ShapeContext;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.DirectionProperty;
@@ -26,7 +26,7 @@ public class GarlandBlock extends Block {
 	}
 	
 	@Override
-	public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, EntityContext ePos) {
+	public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext ePos) {
 		switch(state.get(FACING)) {
 			case EAST:
 			case WEST:
@@ -40,7 +40,7 @@ public class GarlandBlock extends Block {
 	
 	@Override
 	public BlockState getPlacementState(ItemPlacementContext context) {
-		return this.getDefaultState().with(FACING, context.getPlayerFacing().getOpposite());
+		return this.getDefaultState().with(FACING, context.getHorizontalPlayerFacing().getOpposite());
 	}
 	
 	@Override
